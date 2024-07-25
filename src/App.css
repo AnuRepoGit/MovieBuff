@@ -24,6 +24,19 @@
   color: white;
 }
 
+.home-icon {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.movie-search-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px; 
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -36,3 +49,78 @@
     transform: rotate(360deg);
   }
 }
+
+/* App.css */
+
+.movie-search-form {
+  display: flex;
+  align-items: center;
+}
+
+.movie-search-input {
+  max-width: 300px;
+  margin-right: 10px; 
+}
+
+
+.movie-search-button {
+  margin: 0 10px;
+  padding: 0.5rem 1rem; 
+}
+
+.movie-search-clear {
+  margin-left: 10px;
+  padding: 0.5rem 1rem; 
+}
+
+.home-container {
+  padding-top: 5rem; 
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.home-title {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+}
+
+.home-subtitle {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.home-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px;
+}
+
+.button-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 0.5rem;
+}
+
+.home-background {
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #fff;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px; 
+}
+
+
+
