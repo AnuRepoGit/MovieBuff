@@ -1,70 +1,45 @@
-# Getting Started with Create React App
+**Project Overview**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Movie Buff App! This project was developed to showcase my skills and approach to building web applications. The app allows users to search for movies, filter results by genre, and navigate through paginated search results. It utilizes the public Movies API 
+and the implementation was done using both Rest Api and Graphql
 
-## Available Scripts
+**Highlights**
 
-In the project directory, you can run:
+One of the most interesting and significant aspects of this project is the implementation of the genre filtering feature. This feature required careful handling of API requests to ensure that the filter options were dynamically populated based on the available genres. The logic for updating the movie list based on selected genres was also a key challenge, ensuring that users receive accurate and relevant search results without unnecessary API calls with proper pagination being handled for the ease of user.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**Pride Points**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+I am most pleased with the overall user experience and interface design of the application. Despite the time constraints, I managed to create a clean, intuitive, and responsive design that ensures a smooth user experience. The layout is simple yet effective, making it easy for users to search for movies, navigate through results, and view detailed information about each movie.
 
-### `npm test`
+I was able to quickly grasp the graphql Structure/Schema test it in postman and implement the same in the project.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+**Future Improvements**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Given more time, the next features or improvements I would like to add to the project would be:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Advanced Search Options**: Implementing refined search capabilities by rating and summary will allow users to filter their movie searches more precisely, enhancing the overall search experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Enhanced UI Design**: Upgrading the user interface to a more polished and professional design will provide a more engaging and aesthetically pleasing experience for users, making the application feel modern and intuitive.
 
-### `npm run eject`
+**Optimized API Calls and Caching**: Improving the efficiency of API calls and implementing caching mechanisms will reduce load times and increase the responsiveness of the application, resulting in a smoother and faster user experience.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**State Management Framework**: Although the current simple features did not necessitate a state management framework, introducing one will prepare the application for future scalability and maintainability, ensuring it can handle more complex features and interactions seamlessly.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Technical Details**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+**Framework**: React (latest version)
 
-## Learn More
+**Build System**: Create React App,webpack
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+**Styling**: CSS Modules
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Axios** for API requests
 
-### Code Splitting
+**React Router** for navigation
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**React Paginate** for pagination
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
