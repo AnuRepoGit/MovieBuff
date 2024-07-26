@@ -12,8 +12,10 @@ One of the most interesting and significant aspects of this project is the imple
 
 I am most pleased with the overall user experience and interface design of the application. Despite the time constraints, I managed to create a clean, intuitive, and responsive design that ensures a smooth user experience. The layout is simple yet effective, making it easy for users to search for movies, navigate through results, and view detailed information about each movie.
 
-I was able to quickly grasp the graphql Structure/Schema test it in postman and implement the same in the project.
+During the development of this project, I was able to quickly grasp the GraphQL structure and schema, test it thoroughly in Postman, and implement it effectively within the application. To maintain a lightweight and efficient codebase, I utilized React hooks, particularly useContext, ensuring efficient state management and optimal use of React concepts.
 
+**GraphQL Schema and Structure**
+The GraphQL schema was designed to align with the application's data requirements, providing a clear and efficient structure for querying and mutating data. This allowed for seamless integration with the front end and ensured that the application could leverage the full power of GraphQL.
 
 **Future Improvements**
 
