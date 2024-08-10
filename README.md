@@ -29,6 +29,10 @@ Given more time, the next features or improvements I would like to add to the pr
 
 **State Management Framework**: Although the current simple features did not necessitate a state management framework, introducing one will prepare the application for future scalability and maintainability, ensuring it can handle more complex features and interactions seamlessly.
 
+**Auto Complete**
+As the movie List is small we didnt incorporate AutoComplete Feature but this could be implemented as we scale up and applications becomes more complex.
+Backend implementation could be done in Java with Trie Data structure because it allows efficient storage and retrieval of words based on their prefixes. Each node in the Trie represents a character, and paths through the Trie represent words or prefixes of words.
+
 
 **Technical Details**
 
